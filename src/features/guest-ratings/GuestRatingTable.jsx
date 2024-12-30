@@ -62,8 +62,6 @@ const GuestRatingTable = () => {
   const firstRatingsIndex = (currentPage - 1) * rowsPerPage;
   const lastRatingsIndex = currentPage * rowsPerPage;
 
-  // console.log(ratings);
-
   const filteredRatings = ratings?.filter((rating) => {
     if (!search) {
       return rating;

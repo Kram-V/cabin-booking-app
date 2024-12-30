@@ -126,8 +126,6 @@ const DurationChart = ({ confirmedStays }) => {
     setCurrentValue("");
   };
 
-  console.log("DURATION CHART: ", data);
-
   return (
     <ChartBox>
       <Heading as="h2">Stay Duration Summary</Heading>

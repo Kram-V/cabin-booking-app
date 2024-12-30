@@ -76,8 +76,6 @@ const Pagination = ({ totalResults }) => {
 
   const pageCount = Math.ceil(totalResults / currentRowsPerPage);
 
-  console.log("PAGINATION: ", pageCount);
-
   function handleNextPage() {
     const nextPage = currentPage === pageCount ? currentPage : currentPage + 1;
 

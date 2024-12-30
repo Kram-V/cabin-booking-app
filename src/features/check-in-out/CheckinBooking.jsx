@@ -67,8 +67,6 @@ function CheckinBooking({ booking, settings }) {
   function handleCheckin() {
     if (!addBreakfast) return mutate({ status: "checked-in", is_paid: true });
 
-    console.log("HAS BREAKFAST");
-
     mutate({
       status: "checked-in",
       is_paid: true,
