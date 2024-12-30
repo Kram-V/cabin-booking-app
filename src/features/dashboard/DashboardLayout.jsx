@@ -9,7 +9,7 @@ import {
   getUnconfirmedBookings,
 } from "../../services/apiBookings";
 import Spinner from "../../ui/Spinner";
-import Stats from "./stats";
+import Stats from "./Stats";
 import { getCabins } from "../../services/apiCabins";
 import SalesChart from "./SalesChart";
 import DurationChart from "./DurationChart";
