@@ -1,0 +1,187 @@
+// Search for: 'jo', 'fa', 'mar', 'emm', 'ah'
+
+export const guests = [
+  {
+    // id: 1000,
+    fullname: "Jonas Schmedtmann",
+    email: "hello@jonas.io",
+    nationality: "Portugal",
+    national_id: "3525436345",
+  },
+  {
+    fullname: "Jonathan Smith",
+    email: "johnsmith@test.eu",
+    nationality: "Great Britain",
+    national_id: "4534593454",
+  },
+  {
+    fullname: "Jonatan Johansson",
+    email: "jonatan@example.com",
+    nationality: "Finland",
+    national_id: "9374074454",
+  },
+  {
+    fullname: "Jonas Mueller",
+    email: "jonas@example.eu",
+    nationality: "Germany",
+    national_id: "1233212288",
+  },
+  {
+    fullname: "Jonas Anderson",
+    email: "anderson@example.com",
+    nationality: "Bolivia (Plurinational State of)",
+    national_id: "0988520146",
+  },
+  {
+    fullname: "Jonathan Williams",
+    email: "jowi@gmail.com",
+    nationality: "United States of America",
+    national_id: "633678543",
+  },
+
+  // GPT
+  {
+    fullname: "Emma Watson",
+    email: "emma@gmail.com",
+    nationality: "United Kingdom",
+    national_id: "1234578901",
+  },
+  {
+    fullname: "Mohammed Ali",
+    email: "mohammedali@yahoo.com",
+    nationality: "Egypt",
+    national_id: "987543210",
+  },
+  {
+    fullname: "Maria Rodriguez",
+    email: "maria@gmail.com",
+    nationality: "Spain",
+    national_id: "1098765321",
+  },
+  {
+    fullname: "Li Mei",
+    email: "li.mei@hotmail.com",
+    nationality: "China",
+    national_id: "102934756",
+  },
+  {
+    fullname: "Khadija Ahmed",
+    email: "khadija@gmail.com",
+    nationality: "Sudan",
+    national_id: "1023457890",
+  },
+  {
+    fullname: "Gabriel Silva",
+    email: "gabriel@gmail.com",
+    nationality: "Brazil",
+    national_id: "109283465",
+  },
+  {
+    fullname: "Maria Gomez",
+    email: "maria@example.com",
+    nationality: "Mexico",
+    national_id: "108765421",
+  },
+  {
+    fullname: "Ahmed Hassan",
+    email: "ahmed@gmail.com",
+    nationality: "Egypt",
+    national_id: "1077777777",
+  },
+  {
+    fullname: "John Doe",
+    email: "johndoe@gmail.com",
+    nationality: "United States",
+    national_id: "3245908744",
+  },
+  {
+    fullname: "Fatima Ahmed",
+    email: "fatima@example.com",
+    nationality: "Pakistan",
+    national_id: "1089999363",
+  },
+  {
+    fullname: "David Smith",
+    email: "david@gmail.com",
+    nationality: "Australia",
+    national_id: "44450960283",
+  },
+  {
+    fullname: "Marie Dupont",
+    email: "marie@gmail.com",
+    nationality: "France",
+    national_id: "06934233728",
+  },
+  {
+    fullname: "Ramesh Patel",
+    email: "ramesh@gmail.com",
+    nationality: "India",
+    national_id: "9875412303",
+  },
+  {
+    fullname: "Fatimah Al-Sayed",
+    email: "fatimah@gmail.com",
+    nationality: "Kuwait",
+    national_id: "0123456789",
+  },
+  {
+    fullname: "Nina Williams",
+    email: "nina@hotmail.com",
+    nationality: "South Africa",
+    national_id: "2345678901",
+  },
+  {
+    fullname: "Taro Tanaka",
+    email: "taro@gmail.com",
+    nationality: "Japan",
+    national_id: "3456789012",
+  },
+  {
+    fullname: "Abdul Rahman",
+    email: "abdul@gmail.com",
+    nationality: "Saudi Arabia",
+    national_id: "4567890123",
+  },
+  {
+    fullname: "Julie Nguyen",
+    email: "julie@gmail.com",
+    nationality: "Vietnam",
+    national_id: "5678901234",
+  },
+  {
+    fullname: "Sara Lee",
+    email: "sara@gmail.com",
+    nationality: "South Korea",
+    national_id: "6789012345",
+  },
+  {
+    fullname: "Carlos Gomez",
+    email: "carlos@yahoo.com",
+    nationality: "Colombia",
+    national_id: "7890123456",
+  },
+  {
+    fullname: "Emma Brown",
+    email: "emma@gmail.com",
+    nationality: "Canada",
+    national_id: "8901234567",
+  },
+  {
+    fullname: "Juan Hernandez",
+    email: "juan@yahoo.com",
+    nationality: "Argentina",
+    national_id: "4343433333",
+  },
+  {
+    fullname: "Ibrahim Ahmed",
+    email: "ibrahim@yahoo.com",
+    nationality: "Nigeria",
+    national_id: "2345678009",
+  },
+  {
+    fullname: "Mei Chen",
+    email: "mei@gmail.com",
+    nationality: "Taiwan",
+    national_id: "3456117890",
+  },
+];
