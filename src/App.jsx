@@ -15,6 +15,7 @@ import CheckIn from "./pages/CheckIn";
 import ProtectedRoute from "./ui/ProtectedRoute";
 import Testimonials from "./pages/Testimonials";
 import GuestRating from "./pages/GuestRating";
+import SignupForm from "./features/authentication/SignupForm";
 
 const App = () => {
   return (
@@ -44,6 +45,7 @@ const App = () => {
 
           <Route path="*" element={<PageNotFound />} />
           <Route path="login" element={<Login />} />
+          {/* <Route path="register" element={<SignupForm />} /> */}
         </Routes>
       </BrowserRouter>
 

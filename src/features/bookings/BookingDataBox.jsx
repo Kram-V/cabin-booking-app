@@ -166,13 +166,6 @@ function BookingDataBox({ booking }) {
           </Tag>
         </DataItem>
 
-        <DataItem label="Is guest marked as checked in?">
-          {/* <Tag type={has_breakfast ? "green" : "red"}>
-            {has_breakfast ? "Yes" : "No"}
-          </Tag> */}
-          <Tag type="red">No</Tag>
-        </DataItem>
-
         <Price is_paid={is_paid ? is_paid : undefined}>
           <DataItem icon={<HiOutlineCurrencyDollar />} label={`Total price`}>
             {formatCurrency(total_price)}
