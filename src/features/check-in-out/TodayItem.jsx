@@ -46,7 +46,7 @@ const TodayItem = ({ activity }) => {
       </Guest>
 
       <div style={{ fontSize: "13px", color: "#a19d9d" }}>
-        {guests.nationality}
+        {guests.nationality ? guests.nationality : "-"}
       </div>
     </StyledTodayItem>
   );

@@ -16,13 +16,20 @@ export const formatDistanceFromNow = (dateStr) =>
 export const getToday = function (options = {}) {
   const today = new Date();
 
-  // This is necessary to compare with created_at from Supabase, because it it not at 0.0.0.0, so we need to set the date to be END of the day when we compare it with earlier dates
-  if (options?.end)
-    // Set to the last second of the day
-    today.setUTCHours(23, 59, 59, 999);
-  else today.setUTCHours(0, 0, 0, 0);
+  // Set time to local midnight
+  today.setHours(0, 0, 0, 0);
 
-  return today.toISOString();
+  // Get timezone offset in milliseconds
+  const tzOffsetMs = today.getTimezoneOffset() * 60 * 1000;
+
+  // Adjust for local timezone to get UTC midnight
+  const utcDate = new Date(today.getTime() - tzOffsetMs);
+
+  if (options?.end) {
+    utcDate.setUTCHours(23, 59, 59, 999);
+  }
+
+  return utcDate.toISOString();
 };
 
 export const formatCurrency = (value) =>

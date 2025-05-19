@@ -3,6 +3,7 @@ import styled, { css } from "styled-components";
 import Heading from "../../ui/Heading";
 import Row from "../../ui/Row";
 import TodayItem from "./TodayItem";
+import { PiColumnsPlusLeft } from "react-icons/pi";
 
 const StyledToday = styled.div`
   /* Box */
