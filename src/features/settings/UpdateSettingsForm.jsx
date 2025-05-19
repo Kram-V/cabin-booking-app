@@ -69,7 +69,7 @@ function UpdateSettingsForm() {
           })}
         />
       </FormRow>
-      <FormRow label="Maximum guests/booking">
+      {/* <FormRow label="Maximum guests/booking">
         <Input
           disabled={updateLoading}
           type="number"
@@ -79,7 +79,7 @@ function UpdateSettingsForm() {
             required: "Maximum guests/booking field is required",
           })}
         />
-      </FormRow>
+      </FormRow> */}
       <FormRow label="Breakfast price">
         <Input
           disabled={updateLoading}

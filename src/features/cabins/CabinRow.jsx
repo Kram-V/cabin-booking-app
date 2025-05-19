@@ -136,11 +136,11 @@ const CabinRow = ({ cabin }) => {
         <Discount>{formatCurrency(discount)}</Discount>
 
         <ButtonContainer>
-          <HiSquare2Stack
+          {/* <HiSquare2Stack
             id="duplicate"
             disabled={isDuplicating}
             onClick={handleDuplicateCabin}
-          />
+          /> */}
 
           <HiPencil id="edit" onClick={() => setIsOpenModal(true)} />
 
@@ -151,9 +151,9 @@ const CabinRow = ({ cabin }) => {
         </ButtonContainer>
       </TableRow>
 
-      <Tooltip anchorSelect="#duplicate" place="top">
+      {/* <Tooltip anchorSelect="#duplicate" place="top">
         Duplicate
-      </Tooltip>
+      </Tooltip> */}
 
       <Tooltip anchorSelect="#edit" place="top">
         Edit
